@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\obj\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\obj\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\obj\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\bin\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\obj\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_FizzBuzz\ConsoleApp_04_FizzBuzz\obj\Debug\netcoreapp3.1\ConsoleApp_04_FizzBuzz.pdb

@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_ForEachLoop\ConsoleApp_04_ForEachLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_ForEachLoop.pdb

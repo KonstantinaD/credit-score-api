@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\bin\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\obj\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\obj\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\obj\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\obj\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_01_ThreeCarObjects\ConsoleApp_04_01_ThreeCarObjects\obj\Debug\netcoreapp3.1\ConsoleApp_04_01_ThreeCarObjects.pdb

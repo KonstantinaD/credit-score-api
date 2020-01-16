@@ -1,0 +1,10 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\bin\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\obj\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\obj\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\obj\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Calculator\ConsoleApp_04_Calculator\obj\Debug\netcoreapp3.1\ConsoleApp_04_Calculator.pdb

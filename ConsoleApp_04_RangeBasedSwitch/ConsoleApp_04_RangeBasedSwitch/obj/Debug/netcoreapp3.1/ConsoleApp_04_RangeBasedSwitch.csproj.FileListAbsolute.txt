@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\bin\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\obj\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\obj\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\obj\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\obj\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_RangeBasedSwitch\ConsoleApp_04_RangeBasedSwitch\obj\Debug\netcoreapp3.1\ConsoleApp_04_RangeBasedSwitch.pdb

@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\bin\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\obj\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\obj\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\obj\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\obj\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_Ternary\ConsoleApp_04_Ternary\obj\Debug\netcoreapp3.1\ConsoleApp_04_Ternary.pdb

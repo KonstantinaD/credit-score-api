@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.exe
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.deps.json
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.dll
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\bin\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.pdb
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\obj\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\obj\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\obj\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\obj\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.dll
+C:\Users\Home\c-sharp-refresh\04_IntroducingCSharpSyntax\ConsoleApp_04_CSharpSyntax\obj\Debug\netcoreapp3.1\ConsoleApp_04_CSharpSyntax.pdb

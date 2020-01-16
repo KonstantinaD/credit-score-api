@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.AssemblyInfo.cs
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.exe
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.deps.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.runtimeconfig.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\bin\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.pdb
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.dll
+C:\Users\Home\c-sharp-refresh\ConsoleApp_04_DoWhileLoop\ConsoleApp_04_DoWhileLoop\obj\Debug\netcoreapp3.1\ConsoleApp_04_DoWhileLoop.pdb

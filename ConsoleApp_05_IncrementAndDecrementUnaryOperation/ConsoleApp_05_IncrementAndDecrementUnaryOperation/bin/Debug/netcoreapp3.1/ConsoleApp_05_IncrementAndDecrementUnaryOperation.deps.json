@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp_05_IncrementAndDecrementUnaryOperation/1.0.0": {
+        "runtime": {
+          "ConsoleApp_05_IncrementAndDecrementUnaryOperation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp_05_IncrementAndDecrementUnaryOperation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
