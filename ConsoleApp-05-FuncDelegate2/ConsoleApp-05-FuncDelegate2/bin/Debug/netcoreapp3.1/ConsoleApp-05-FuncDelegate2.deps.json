@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp-05-FuncDelegate2/1.0.0": {
+        "runtime": {
+          "ConsoleApp-05-FuncDelegate2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp-05-FuncDelegate2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

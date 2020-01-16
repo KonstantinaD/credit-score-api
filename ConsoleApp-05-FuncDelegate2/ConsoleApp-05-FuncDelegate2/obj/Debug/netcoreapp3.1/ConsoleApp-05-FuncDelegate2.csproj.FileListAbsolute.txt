@@ -1,0 +1,11 @@
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.exe
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.deps.json
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.runtimeconfig.json
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.runtimeconfig.dev.json
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.dll
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\bin\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.pdb
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\obj\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.csprojAssemblyReference.cache
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\obj\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.AssemblyInfoInputs.cache
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\obj\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.AssemblyInfo.cs
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\obj\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.dll
+C:\Users\Home\c-sharp-prep-experian\ConsoleApp-05-FuncDelegate2\ConsoleApp-05-FuncDelegate2\obj\Debug\netcoreapp3.1\ConsoleApp-05-FuncDelegate2.pdb
