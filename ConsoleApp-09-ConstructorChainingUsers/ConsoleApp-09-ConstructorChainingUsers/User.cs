@@ -9,10 +9,10 @@ namespace ConsoleApp_09_ConstructorChainingUsers
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public User(string firstName, string lastName)
+        public user(string firstname, string lastname)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            firstname = firstname;
+            lastname = lastname;
         }
 
         public string GetUserDetails()
