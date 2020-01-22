@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary-12-TDD-SmallestNumber-MainCode", "ClassLibrary-12-TDD-SmallestNumber-MainCode\ClassLibrary-12-TDD-SmallestNumber-MainCode.csproj", "{02CB4BF3-5B69-4164-BB4E-AD35C5A588BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary-12-TDD-SmallestNumber-UnitTests", "ClassLibrary-12-TDD-SmallestNumber-UnitTests\ClassLibrary-12-TDD-SmallestNumber-UnitTests.csproj", "{2D92CF24-9368-4491-A2B4-D08D3C34FACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CB4BF3-5B69-4164-BB4E-AD35C5A588BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CB4BF3-5B69-4164-BB4E-AD35C5A588BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CB4BF3-5B69-4164-BB4E-AD35C5A588BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CB4BF3-5B69-4164-BB4E-AD35C5A588BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D92CF24-9368-4491-A2B4-D08D3C34FACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D92CF24-9368-4491-A2B4-D08D3C34FACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D92CF24-9368-4491-A2B4-D08D3C34FACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D92CF24-9368-4491-A2B4-D08D3C34FACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE5132C-BA22-43D4-B208-2B396E1ACAD6}
+	EndGlobalSection
+EndGlobal
