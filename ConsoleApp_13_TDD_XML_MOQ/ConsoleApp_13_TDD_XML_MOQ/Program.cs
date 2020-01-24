@@ -9,14 +9,12 @@ namespace ConsoleApp_13_TDD_XML_MOQ
     {
         static void Main()
         {
-            {
-                string fileLocation = "books.xml";
-                GetAllBooksCommandFactory fac = new GetAllBooksCommandFactory(
-                   fileLocation, new XmlDocument());
+            string fileLocation = "books.xml";
+            GetAllBooksCommandFactory fac = new GetAllBooksCommandFactory(
+               fileLocation, new XmlDocument());
 
-                GetAllBooksCommand cmd = fac.GetCommand();
-                List<Book> list = cmd.ExecuteGetAllBooks();
-            }  
+            GetAllBooksCommand cmd = fac.GetCommand();
+            List<Book> list = cmd.ExecuteGetAllBooks();
         }
     }
 }
