@@ -2,21 +2,21 @@
 
 namespace _12_TDD_BookStore_MainCode
 {
-    public class Catalogue
+    public class Catalogue : Helper
     {
-        private readonly List<Book> books = new List<Book>();
+        //private readonly List<Book> books = new List<Book>();
 
-        public List<Book> AddBook(Book book)
-        {
-            books.Add(book);
+        //public List<Book> AddBook(Book book)
+        //{
+        //    books.Add(book);
 
-            return books;
-        }
+        //    return books;
+        //}
 
-        public List<Book> FindAllBooks()
-        {
-            return books;
-        }
+        //public List<Book> FindAllBooks()
+        //{
+        //    return books;
+        //}
 
         public List<Book> RemoveBook(string isbn)
         {

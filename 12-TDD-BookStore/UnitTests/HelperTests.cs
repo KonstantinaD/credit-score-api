@@ -5,16 +5,16 @@ using System.Collections.Generic;
 namespace UnitTests
 {
     [TestFixture]
-    class BasketTests
+   public  class HelperTests
     {
         [Test]
-        public void Test_AddBookToBasket_ReturnsListWithNullMember_WhenNoBooksAdded()
+        public void Test_AddBook_ReturnsListWithNullMember_WhenNoBooksAdded()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
 
             //act
-            List<Book> returnedList = basket.AddBookToBasket(null);
+            List<Book> returnedList = helper.AddBook(null);
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(1));
@@ -22,60 +22,60 @@ namespace UnitTests
         }
 
         [Test]
-        public void Test_AddBookToBasket_ReturnsListWith1Book_When1BookAdded()
+        public void Test_AddBook_ReturnsListWith1Book_When1BookAdded()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book = new Book();
 
             //act
-            List<Book> returnedList = basket.AddBookToBasket(book);
+            List<Book> returnedList = helper.AddBook(book);
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(1));
         }
 
         [Test]
-        public void Test_AddBookToBasket_ReturnsCorrectBookObject_When1BookAdded()
+        public void Test_AddBook_ReturnsCorrectBookObject_When1BookAdded()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book = new Book();
 
             //act
-            List<Book> returnedList = basket.AddBookToBasket(book);
+            List<Book> returnedList = helper.AddBook(book);
 
             //assert
             Assert.That(returnedList[0], Is.EqualTo(book));
         }
 
         [Test]
-        public void Test_AddBookToBasket_ReturnsListWith2Books_When2BooksAdded()
+        public void Test_AddBook_ReturnsListWith2Books_When2BooksAdded()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book1 = new Book();
             Book book2 = new Book();
 
             //act
-            List<Book> returnedList = basket.AddBookToBasket(book1);
-            returnedList = basket.AddBookToBasket(book2);
+            List<Book> returnedList = helper.AddBook(book1);
+            helper.AddBook(book2);
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(2));
         }
 
         [Test]
-        public void Test_AddBookToBasket_ReturnsCorrectBookObjects_When2BooksAdded()
+        public void Test_AddBook_ReturnsCorrectBookObjects_When2BooksAdded()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book1 = new Book();
             Book book2 = new Book();
 
             //act
-            List<Book> returnedList = basket.AddBookToBasket(book1);
-            returnedList = basket.AddBookToBasket(book2);
+            List<Book> returnedList = helper.AddBook(book1);
+            helper.AddBook(book2);
 
             //assert
             Assert.That(returnedList[0], Is.EqualTo(book1));
@@ -83,77 +83,77 @@ namespace UnitTests
         }
 
         [Test]
-        public void Test_FindAllBooksInBasket_ReturnsEmptyList_WhenNoBooksInList()
+        public void Test_FindAllBooks_ReturnsEmptyList_WhenNoBooksInList()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
 
             //act
-            List<Book> returnedList = basket.FindAllBooksInBasket();
+            List<Book> returnedList = helper.FindAllBooks();
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(0));
         }
 
         [Test]
-        public void Test_FindAllBooksInBasket_Returns1Book_When1BookInList()
+        public void Test_FindAllBooks_Returns1Book_When1BookInList()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book = new Book();
-            basket.AddBookToBasket(book);
+            helper.AddBook(book);
 
             //act
-            List<Book> returnedList = basket.FindAllBooksInBasket();
+            List<Book> returnedList = helper.FindAllBooks();
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(1));
         }
 
         [Test]
-        public void Test_FindAllBookInBasket_ReturnsCorrectBookObject_When1BookInList()
+        public void Test_FindAllBooks_ReturnsCorrectBookObject_When1BookInList()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book = new Book();
-            basket.AddBookToBasket(book);
+            helper.AddBook(book);
 
             //act
-            List<Book> returnedList = basket.FindAllBooksInBasket();
+            List<Book> returnedList = helper.FindAllBooks();
 
             //assert
             Assert.That(returnedList[0], Is.EqualTo(book));
         }
 
         [Test]
-        public void Test_FindAllBookInBasket_Returns2Books_When2BooksInList()
+        public void Test_FindAllBooks_Returns2Books_When2BooksInList()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book1 = new Book();
             Book book2 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            helper.AddBook(book1);
+            helper.AddBook(book2);
 
             //act
-            List<Book> returnedList = basket.FindAllBooksInBasket();
+            List<Book> returnedList = helper.FindAllBooks();
 
             //assert
             Assert.That(returnedList.Count, Is.EqualTo(2));
         }
 
         [Test]
-        public void Test_FindAllBooksInBasket_ReturnsCorrectBookObjects_When2BooksInList()
+        public void Test_FindAllBooks_ReturnsCorrectBookObjects_When2BooksInList()
         {
             //arrange
-            Basket basket = new Basket();
+            Helper helper = new Helper();
             Book book1 = new Book();
             Book book2 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            helper.AddBook(book1);
+            helper.AddBook(book2);
 
             //act
-            List<Book> returnedList = basket.FindAllBooksInBasket();
+            List<Book> returnedList = helper.FindAllBooks();
 
             //assert
             Assert.That(returnedList[0], Is.EqualTo(book1));

@@ -2,20 +2,20 @@
 
 namespace _12_TDD_BookStore_MainCode
 {
-    public class Basket
+    public class Basket : Helper
     {
-        private readonly List<Book> books = new List<Book>();
+        //private readonly List<Book> books = new List<Book>();
 
-        public List<Book> AddBookToBasket(Book book)
-        {
-            books.Add(book);
+        //public List<Book> AddBookToBasket(Book book)
+        //{
+        //    books.Add(book);
 
-            return books;
-        }
+        //    return books;
+        //}
 
-        public List<Book> FindAllBooksInBasket()
-        {
-            return books;
-        }
+        //public List<Book> FindAllBooksInBasket()
+        //{
+        //    return books;
+        //}
     }
 }

@@ -14,7 +14,7 @@ namespace UnitTests
             Basket basket = new Basket();
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -26,10 +26,10 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book());
+            basket.AddBook(new Book());
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -43,11 +43,11 @@ namespace UnitTests
             Basket basket = new Basket();
             Book book1 = new Book();
             Book book2 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -62,12 +62,12 @@ namespace UnitTests
             Book book1 = new Book();
             Book book2 = new Book();
             Book book3 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(1));
@@ -83,13 +83,13 @@ namespace UnitTests
             Book book2 = new Book();
             Book book3 = new Book();
             Book book4 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(1));
@@ -107,15 +107,15 @@ namespace UnitTests
             Book book4 = new Book();
             Book book5 = new Book();
             Book book6 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(2));
@@ -134,16 +134,16 @@ namespace UnitTests
             Book book5 = new Book();
             Book book6 = new Book();
             Book book7 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
 
             //act
-            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateAccumulativeDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(2));
@@ -157,7 +157,7 @@ namespace UnitTests
             Basket basket = new Basket();
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -169,11 +169,11 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book());
+            basket.AddBook(new Book());
        
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -187,11 +187,11 @@ namespace UnitTests
             Basket basket = new Basket();
             Book book1 = new Book();
             Book book2 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -206,12 +206,12 @@ namespace UnitTests
             Book book1 = new Book();
             Book book2 = new Book();
             Book book3 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -227,13 +227,13 @@ namespace UnitTests
             Book book2 = new Book();
             Book book3 = new Book();
             Book book4 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -250,14 +250,14 @@ namespace UnitTests
             Book book3 = new Book();
             Book book4 = new Book();
             Book book5 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -275,15 +275,15 @@ namespace UnitTests
             Book book4 = new Book();
             Book book5 = new Book();
             Book book6 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -302,16 +302,16 @@ namespace UnitTests
             Book book5 = new Book();
             Book book6 = new Book();
             Book book7 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -331,18 +331,18 @@ namespace UnitTests
             Book book6 = new Book();
             Book book7 = new Book();
             Book book8 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
 
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -363,18 +363,18 @@ namespace UnitTests
             Book book7 = new Book();
             Book book8 = new Book();
             Book book9 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
-            basket.AddBookToBasket(book9);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
+            basket.AddBook(book9);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -396,19 +396,19 @@ namespace UnitTests
             Book book8 = new Book();
             Book book9 = new Book();
             Book book10 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
-            basket.AddBookToBasket(book9);
-            basket.AddBookToBasket(book10);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
+            basket.AddBook(book9);
+            basket.AddBook(book10);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(10));
@@ -431,20 +431,20 @@ namespace UnitTests
             Book book9 = new Book();
             Book book10 = new Book();
             Book book11 = new Book();
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
-            basket.AddBookToBasket(book9);
-            basket.AddBookToBasket(book10);
-            basket.AddBookToBasket(book11);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
+            basket.AddBook(book9);
+            basket.AddBook(book10);
+            basket.AddBook(book11);
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(10));
@@ -456,30 +456,30 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(10));
@@ -491,31 +491,31 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
-            basket.AddBookToBasket(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
+            basket.AddBook(new Book());
 
             //act
-            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateOneOffDiscount(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(10));
@@ -529,7 +529,7 @@ namespace UnitTests
             Basket basket = new Basket();
 
             //act
-            decimal actualDiscount = checkout.CalculateSumOfPrices(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateSumOfPrices(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(0));
@@ -541,11 +541,11 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book("", "", "", (decimal)20.25, 60));
+            basket.AddBook(new Book("", "", "", (decimal)20.25, 60));
 
 
             //act
-            decimal actualValue = checkout.CalculateSumOfPrices(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateSumOfPrices(basket.FindAllBooks());
 
             //assert
             Assert.That(actualValue, Is.EqualTo(20.25));
@@ -559,11 +559,11 @@ namespace UnitTests
             Basket basket = new Basket();
             Book book1 = new Book("", "", "", (decimal)10.00, 70);
             Book book2 = new Book("", "", "", (decimal)25.00, 200);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
 
             //act
-            decimal actualDiscount = checkout.CalculateSumOfPrices(basket.FindAllBooksInBasket());
+            decimal actualDiscount = checkout.CalculateSumOfPrices(basket.FindAllBooks());
 
             //assert
             Assert.That(actualDiscount, Is.EqualTo(10.00 + 25.00));
@@ -577,7 +577,7 @@ namespace UnitTests
             Basket basket = new Basket();
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             Assert.That(actualValue, Is.EqualTo(0));
@@ -589,11 +589,11 @@ namespace UnitTests
             //arrange
             Checkout checkout = new Checkout();
             Basket basket = new Basket();
-            basket.AddBookToBasket(new Book("", "", "", (decimal)20.25, 60));
+            basket.AddBook(new Book("", "", "", (decimal)20.25, 60));
 
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             Assert.That(actualValue, Is.EqualTo(20.25));
@@ -607,11 +607,11 @@ namespace UnitTests
             Basket basket = new Basket();
             Book book1 = new Book("", "", "", (decimal)10.00, 70);
             Book book2 = new Book("", "", "", (decimal)25.00, 200);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             Assert.That(actualValue, Is.EqualTo(10.00 + 25.00));
@@ -626,12 +626,12 @@ namespace UnitTests
             Book book1 = new Book("", "", "", (decimal)10.00, 70);
             Book book2 = new Book("", "", "", (decimal)20.00, 200);
             Book book3 = new Book("", "", "", (decimal)30.00, 100);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             decimal sumOfPrices = (decimal)(10.00 + 20.00 + 30.00);
@@ -651,16 +651,16 @@ namespace UnitTests
             Book book5 = new Book("", "", "", (decimal)50.00, 200);
             Book book6 = new Book("", "", "", (decimal)60.00, 200);
             Book book7 = new Book("", "", "", (decimal)70.00, 100);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             decimal sumOfPrices = (decimal)(10.00 + 20.00 + 30.00 + 40.00 + 50.00 + 60.00 + 70.00);
@@ -683,19 +683,19 @@ namespace UnitTests
             Book book8 = new Book("", "", "", (decimal)80.00, 200);
             Book book9 = new Book("", "", "", (decimal)90.00, 200);
             Book book10 = new Book("", "", "", (decimal)100.00, 100);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
-            basket.AddBookToBasket(book9);
-            basket.AddBookToBasket(book10);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
+            basket.AddBook(book9);
+            basket.AddBook(book10);
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             decimal sumOfPrices = (decimal)(10.00 + 20.00 + 30.00 + 40.00 + 50.00 + 60.00 + 70.00 + 80.00 
@@ -722,21 +722,21 @@ namespace UnitTests
             Book book10 = new Book("", "", "", (decimal)100.00, 100);
             Book book11 = new Book("", "", "", (decimal)110.00, 200);
             Book book12 = new Book("", "", "", (decimal)120.00, 100);
-            basket.AddBookToBasket(book1);
-            basket.AddBookToBasket(book2);
-            basket.AddBookToBasket(book3);
-            basket.AddBookToBasket(book4);
-            basket.AddBookToBasket(book5);
-            basket.AddBookToBasket(book6);
-            basket.AddBookToBasket(book7);
-            basket.AddBookToBasket(book8);
-            basket.AddBookToBasket(book9);
-            basket.AddBookToBasket(book10);
-            basket.AddBookToBasket(book11);
-            basket.AddBookToBasket(book12);
+            basket.AddBook(book1);
+            basket.AddBook(book2);
+            basket.AddBook(book3);
+            basket.AddBook(book4);
+            basket.AddBook(book5);
+            basket.AddBook(book6);
+            basket.AddBook(book7);
+            basket.AddBook(book8);
+            basket.AddBook(book9);
+            basket.AddBook(book10);
+            basket.AddBook(book11);
+            basket.AddBook(book12);
 
             //act
-            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooksInBasket());
+            decimal actualValue = checkout.CalculateFinalBasketPrice(basket.FindAllBooks());
 
             //assert
             decimal sumOfPrices = (decimal)(10.00 + 20.00 + 30.00 + 40.00 + 50.00 + 60.00 + 70.00 + 80.00

@@ -44,30 +44,25 @@ namespace UnitTests
         }
 
         [Test]
-        public void Test_PropertyId_IsOne_AfterCreatingBookObject()
-        {
-            // Arrange
-            Book book1 = new Book("Microsoft Visual C# Step by Step", "John Sharp", "1234 5678 9012b", (decimal)19.99, 800);
-
-            // Act
-            int actualId = book1.GenerateId();
-
-            // Assert
-            Assert.That(actualId, Is.EqualTo(1));
-        }
-
-        [Test]
-        public void Test_PropertyId_IsTwoForTheSecondBook_AfterCreatingTwoBookObjects()
+        public void Test_PropertyId_ReturnsValuesIncrementedBy1_AfterCreating4BookObjects()
         {
             // Arrange
             Book book1 = new Book("Microsoft Visual C# Step by Step", "John Sharp", "1234 5678 9012b", (decimal)19.99, 800);
             Book book2 = new Book("Java", "Javier", "000 5678 9012b", (decimal)30.00, 400);
+            Book book3 = new Book("Java book", "Javi", "123 5678 9012b", (decimal)40.00, 200);
+            Book book4 = new Book("Java basics", "Jav", "789 5678 9012b", (decimal)50.00, 100);
 
             // Act
-            int actualId = book2.GenerateId();
+            int actualId1 = book1.GenerateId();
+            int actualId2 = book2.GenerateId();
+            int actualId3 = book3.GenerateId();
+            int actualId4 = book4.GenerateId();
 
             // Assert
-            Assert.That(actualId, Is.EqualTo(2));
+            Assert.That(actualId1, Is.EqualTo(1));
+            Assert.That(actualId2, Is.EqualTo(2));
+            Assert.That(actualId3, Is.EqualTo(3));
+            Assert.That(actualId4, Is.EqualTo(4));
         }
     }
 }

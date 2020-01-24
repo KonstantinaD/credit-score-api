@@ -52,7 +52,7 @@
             NumPages = numberPages;
         }
 
-        public int GenerateId ()
+        public int GenerateId()
         {
             return nextId++;
         }
