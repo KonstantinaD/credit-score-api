@@ -77,7 +77,7 @@ namespace UnitTests
         }
 
         [Test]
-        public void Test_AuditChangeOfAddress_WritesIdOldAddressAndNewAddressToConsole()
+        public void Test_AuditChangeOfAddress_OutputStringContainsCustomerIdOldAddressAndNewAddress()
         {
             //arrange
             int id = 1;
