@@ -90,9 +90,9 @@ namespace UnitTests
             string actualValue = system.AuditChangeOfAddress(customer, oldAddress, newAddress);
 
             //assert
-            Assert.That(customer.Id.ToString(), Is.SubsetOf(actualValue));
-            Assert.That(oldAddress, Is.SubsetOf(actualValue));
-            Assert.That(newAddress, Is.SubsetOf(actualValue));
+            StringAssert.Contains(customer.Id.ToString(), actualValue);
+            StringAssert.Contains(oldAddress, actualValue);
+            StringAssert.Contains(newAddress, actualValue);
         }
 
         [Test]
