@@ -18,7 +18,7 @@ namespace ConsoleApp_19_Collections_FriendsArray
 
             Console.WriteLine("\nAfter replacing with a new friend's name:");
 
-            friends[4] = "NewFriend";
+            friends[4] = "Johnny";
 
             ShowValues();
 
