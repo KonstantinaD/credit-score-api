@@ -30,7 +30,7 @@ namespace ConsoleApp_19_Collections_FriendsArray
             ShowValues();
 
 
-            Console.WriteLine("\nAfter sorting");
+            Console.WriteLine("\nAfter sorting:");
 
             friends.Sort();
 
